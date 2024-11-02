@@ -209,9 +209,9 @@ function Volume() {
         <SoftButton variant="gradient" color="info" style={{ marginRight: "10px" }} onClick={solve}>
           Tính thể tích
         </SoftButton>
-        <SoftButton variant="outlined" color="info" onClick={() => navigate("/home")}>
+        {/* <SoftButton variant="outlined" color="info" onClick={() => navigate("/home")}>
           Quay về trang chủ
-        </SoftButton>
+        </SoftButton> */}
       </SoftBox>
 
       {showResult && (
